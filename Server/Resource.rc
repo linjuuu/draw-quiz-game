@@ -1,0 +1,128 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 536, 403
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SERVER"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "끄투온라인",IDC_STATICGAME,143,27,61,14,SS_SUNKEN
+    CTEXT           "전체 접속자",IDC_STATICGAMEUSER1,30,51,60,14
+    LISTBOX         IDC_LISTGAMEUSER1,92,51,164,51,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "한붓그리기",IDC_STATICGAME2,363,27,61,14,SS_SUNKEN
+    LISTBOX         IDC_LISTGAMEUSER2,315,51,164,51,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "접속 클라이언트",IDC_STATIC,25,120,61,13
+    CTEXT           "클라이언트 대화",IDC_STATIC,23,146,62,13
+    EDITTEXT        IDC_EDITCLICHAT1,90,139,165,162,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDITCLICHAT2,315,139,165,162,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_USERCOUNT,92,118,32,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "명",IDC_TXTUSER1,128,119,15,13
+    EDITTEXT        IDC_USERCOUNT2,315,118,32,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "명",IDC_TXTUSER2,351,119,15,13
+    PUSHBUTTON      "SERVER 시작",IDC_SERVEROPEN,188,362,64,15
+    PUSHBUTTON      "SERVER 종료",IDC_SERVEREXIT,318,362,64,15
+    CTEXT           "퇴장",IDC_STATIC,34,316,51,13
+    EDITTEXT        IDC_USEROUT,93,313,86,17,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "퇴장",IDC_BTNOUT,186,313,36,18
+    CTEXT           "제시어",IDC_STATIC,318,316,35,13
+    EDITTEXT        IDC_USERWORD,360,313,86,17,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "전달",IDC_BTNWORD,457,313,36,18
+    CTEXT           "공지",IDC_NOTICETXT,46,340,26,11
+    EDITTEXT        IDC_EDITNOTICE,93,338,354,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "공지 전달",IDC_BTNSEND,457,336,36,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 529
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 396
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

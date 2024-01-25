@@ -1,0 +1,4 @@
+C:\Users\kimminseo\Desktop\네트워크소프트웨어개발_수업\Source\Chapter14\PrjClient\Debug\PrjClient.exe
+C:\Users\qhdwl\OneDrive - UOU\바탕 화면\PrjClient\Debug\PrjClient.exe
+C:\Users\kimminseo\Desktop\PrjClient (2)\PrjClient\Debug\PrjClient.exe
+C:\Users\cic\Downloads\PrjClient (3) (1)\PrjClient (2)\PrjClient\Debug\PrjClient.exe
